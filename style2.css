@@ -1,0 +1,148 @@
+h1{
+    color: red;
+    font-family: Chandas;
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 16px;
+    font-family: Chandas;
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    background-color: grey;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+.navbar .all li{
+    list-style: none;
+    margin: 0 8px;
+}
+.navbar .all a{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 6px 0;
+    color: blue;
+    text-decoration: none;
+}
+.navbar .all{
+    display: flex;
+    position: relative;
+}
+.navbar .logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: chartreuse;
+    text-decoration: none;
+}
+.navbar .all a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("range.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.home .home-contect{
+    width: 5%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: blueviolet;
+    text-emphasis-position: over;
+}
+.home .text-two{
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: aqua;
+}
+.home .text-four{
+    font-size: 24px;
+    margin: 5px 0;
+    color: chartreuse;
+}
+.home .button{
+    margin: 14px 0;
+}
+.home .home-contect button{
+    color: white;
+    font-size: 25px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    outline: none;
+    font-weight: 400;
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color: aqua;
+    background-color: white;
+    color: blue;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url("6b55cf6ebe3ddd0043424b25cc31be02.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.about .about-content{
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.about .text-one{
+    font-size: 30px;
+    color: rosybrown;
+    text-align: center;
+}
+.about .text-two{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+.about .text-three{
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+.about .button{
+    margin: 14px 0;
+    text-align: center;
+}
+.about .about-content button{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+.about .button button:hover{
+    border-color: aqua;
+    background-color: white;
+    color: blue;
+}
+
